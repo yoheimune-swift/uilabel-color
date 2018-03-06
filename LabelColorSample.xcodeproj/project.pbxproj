@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E341DA3204EDC99003368D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E341DA2204EDC99003368D1 /* AppDelegate.swift */; };
+		1E341DA5204EDC99003368D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E341DA4204EDC99003368D1 /* ViewController.swift */; };
+		1E341DA8204EDC99003368D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E341DA6204EDC99003368D1 /* Main.storyboard */; };
+		1E341DAA204EDC99003368D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E341DA9204EDC99003368D1 /* Assets.xcassets */; };
+		1E341DAD204EDC99003368D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E341DAB204EDC99003368D1 /* LaunchScreen.storyboard */; };
+		1E341DB8204EDC99003368D1 /* LabelColorSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E341DB7204EDC99003368D1 /* LabelColorSampleTests.swift */; };
+		1E341DC3204EDC99003368D1 /* LabelColorSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E341DC2204EDC99003368D1 /* LabelColorSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E341DB4204EDC99003368D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E341D97204EDC99003368D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E341D9E204EDC99003368D1;
+			remoteInfo = LabelColorSample;
+		};
+		1E341DBF204EDC99003368D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E341D97204EDC99003368D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E341D9E204EDC99003368D1;
+			remoteInfo = LabelColorSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E341D9F204EDC99003368D1 /* LabelColorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelColorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E341DA2204EDC99003368D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E341DA4204EDC99003368D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E341DA7204EDC99003368D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E341DA9204EDC99003368D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E341DAC204EDC99003368D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E341DAE204EDC99003368D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E341DB3204EDC99003368D1 /* LabelColorSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelColorSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E341DB7204EDC99003368D1 /* LabelColorSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelColorSampleTests.swift; sourceTree = "<group>"; };
+		1E341DB9204EDC99003368D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E341DBE204EDC99003368D1 /* LabelColorSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelColorSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E341DC2204EDC99003368D1 /* LabelColorSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelColorSampleUITests.swift; sourceTree = "<group>"; };
+		1E341DC4204EDC99003368D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E341D9C204EDC99003368D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E341DB0204EDC99003368D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E341DBB204EDC99003368D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E341D96204EDC99003368D1 = {
+			isa = PBXGroup;
+			children = (
+				1E341DA1204EDC99003368D1 /* LabelColorSample */,
+				1E341DB6204EDC99003368D1 /* LabelColorSampleTests */,
+				1E341DC1204EDC99003368D1 /* LabelColorSampleUITests */,
+				1E341DA0204EDC99003368D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E341DA0204EDC99003368D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E341D9F204EDC99003368D1 /* LabelColorSample.app */,
+				1E341DB3204EDC99003368D1 /* LabelColorSampleTests.xctest */,
+				1E341DBE204EDC99003368D1 /* LabelColorSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E341DA1204EDC99003368D1 /* LabelColorSample */ = {
+			isa = PBXGroup;
+			children = (
+				1E341DA2204EDC99003368D1 /* AppDelegate.swift */,
+				1E341DA4204EDC99003368D1 /* ViewController.swift */,
+				1E341DA6204EDC99003368D1 /* Main.storyboard */,
+				1E341DA9204EDC99003368D1 /* Assets.xcassets */,
+				1E341DAB204EDC99003368D1 /* LaunchScreen.storyboard */,
+				1E341DAE204EDC99003368D1 /* Info.plist */,
+			);
+			path = LabelColorSample;
+			sourceTree = "<group>";
+		};
+		1E341DB6204EDC99003368D1 /* LabelColorSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E341DB7204EDC99003368D1 /* LabelColorSampleTests.swift */,
+				1E341DB9204EDC99003368D1 /* Info.plist */,
+			);
+			path = LabelColorSampleTests;
+			sourceTree = "<group>";
+		};
+		1E341DC1204EDC99003368D1 /* LabelColorSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E341DC2204EDC99003368D1 /* LabelColorSampleUITests.swift */,
+				1E341DC4204EDC99003368D1 /* Info.plist */,
+			);
+			path = LabelColorSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E341D9E204EDC99003368D1 /* LabelColorSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E341DC7204EDC99003368D1 /* Build configuration list for PBXNativeTarget "LabelColorSample" */;
+			buildPhases = (
+				1E341D9B204EDC99003368D1 /* Sources */,
+				1E341D9C204EDC99003368D1 /* Frameworks */,
+				1E341D9D204EDC99003368D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelColorSample;
+			productName = LabelColorSample;
+			productReference = 1E341D9F204EDC99003368D1 /* LabelColorSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E341DB2204EDC99003368D1 /* LabelColorSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E341DCA204EDC99003368D1 /* Build configuration list for PBXNativeTarget "LabelColorSampleTests" */;
+			buildPhases = (
+				1E341DAF204EDC99003368D1 /* Sources */,
+				1E341DB0204EDC99003368D1 /* Frameworks */,
+				1E341DB1204EDC99003368D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E341DB5204EDC99003368D1 /* PBXTargetDependency */,
+			);
+			name = LabelColorSampleTests;
+			productName = LabelColorSampleTests;
+			productReference = 1E341DB3204EDC99003368D1 /* LabelColorSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E341DBD204EDC99003368D1 /* LabelColorSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E341DCD204EDC99003368D1 /* Build configuration list for PBXNativeTarget "LabelColorSampleUITests" */;
+			buildPhases = (
+				1E341DBA204EDC99003368D1 /* Sources */,
+				1E341DBB204EDC99003368D1 /* Frameworks */,
+				1E341DBC204EDC99003368D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E341DC0204EDC99003368D1 /* PBXTargetDependency */,
+			);
+			name = LabelColorSampleUITests;
+			productName = LabelColorSampleUITests;
+			productReference = 1E341DBE204EDC99003368D1 /* LabelColorSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E341D97204EDC99003368D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Munesada Yohei";
+				TargetAttributes = {
+					1E341D9E204EDC99003368D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1E341DB2204EDC99003368D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E341D9E204EDC99003368D1;
+					};
+					1E341DBD204EDC99003368D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E341D9E204EDC99003368D1;
+					};
+				};
+			};
+			buildConfigurationList = 1E341D9A204EDC99003368D1 /* Build configuration list for PBXProject "LabelColorSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E341D96204EDC99003368D1;
+			productRefGroup = 1E341DA0204EDC99003368D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E341D9E204EDC99003368D1 /* LabelColorSample */,
+				1E341DB2204EDC99003368D1 /* LabelColorSampleTests */,
+				1E341DBD204EDC99003368D1 /* LabelColorSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E341D9D204EDC99003368D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E341DAD204EDC99003368D1 /* LaunchScreen.storyboard in Resources */,
+				1E341DAA204EDC99003368D1 /* Assets.xcassets in Resources */,
+				1E341DA8204EDC99003368D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E341DB1204EDC99003368D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E341DBC204EDC99003368D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E341D9B204EDC99003368D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E341DA5204EDC99003368D1 /* ViewController.swift in Sources */,
+				1E341DA3204EDC99003368D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E341DAF204EDC99003368D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E341DB8204EDC99003368D1 /* LabelColorSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E341DBA204EDC99003368D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E341DC3204EDC99003368D1 /* LabelColorSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E341DB5204EDC99003368D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E341D9E204EDC99003368D1 /* LabelColorSample */;
+			targetProxy = 1E341DB4204EDC99003368D1 /* PBXContainerItemProxy */;
+		};
+		1E341DC0204EDC99003368D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E341D9E204EDC99003368D1 /* LabelColorSample */;
+			targetProxy = 1E341DBF204EDC99003368D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E341DA6204EDC99003368D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E341DA7204EDC99003368D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E341DAB204EDC99003368D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E341DAC204EDC99003368D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E341DC5204EDC99003368D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E341DC6204EDC99003368D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E341DC8204EDC99003368D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T8AA29M65;
+				INFOPLIST_FILE = LabelColorSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yoheim.www.LabelColorSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E341DC9204EDC99003368D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T8AA29M65;
+				INFOPLIST_FILE = LabelColorSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yoheim.www.LabelColorSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E341DCB204EDC99003368D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T8AA29M65;
+				INFOPLIST_FILE = LabelColorSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yoheim.www.LabelColorSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelColorSample.app/LabelColorSample";
+			};
+			name = Debug;
+		};
+		1E341DCC204EDC99003368D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T8AA29M65;
+				INFOPLIST_FILE = LabelColorSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yoheim.www.LabelColorSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelColorSample.app/LabelColorSample";
+			};
+			name = Release;
+		};
+		1E341DCE204EDC99003368D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T8AA29M65;
+				INFOPLIST_FILE = LabelColorSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yoheim.www.LabelColorSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabelColorSample;
+			};
+			name = Debug;
+		};
+		1E341DCF204EDC99003368D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T8AA29M65;
+				INFOPLIST_FILE = LabelColorSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yoheim.www.LabelColorSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabelColorSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E341D9A204EDC99003368D1 /* Build configuration list for PBXProject "LabelColorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E341DC5204EDC99003368D1 /* Debug */,
+				1E341DC6204EDC99003368D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E341DC7204EDC99003368D1 /* Build configuration list for PBXNativeTarget "LabelColorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E341DC8204EDC99003368D1 /* Debug */,
+				1E341DC9204EDC99003368D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E341DCA204EDC99003368D1 /* Build configuration list for PBXNativeTarget "LabelColorSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E341DCB204EDC99003368D1 /* Debug */,
+				1E341DCC204EDC99003368D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E341DCD204EDC99003368D1 /* Build configuration list for PBXNativeTarget "LabelColorSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E341DCE204EDC99003368D1 /* Debug */,
+				1E341DCF204EDC99003368D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E341D97204EDC99003368D1 /* Project object */;
+}
